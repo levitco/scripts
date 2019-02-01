@@ -1,0 +1,3 @@
+#!/bin/bash
+xflux -l 20 -k 2000 
+echo exit
