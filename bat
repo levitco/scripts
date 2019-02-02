@@ -1,0 +1,4 @@
+#!/bin/bash
+upower -i $(upower -e | grep '/battery') | grep --color=never -E "state|to\ full|to\ empty|percentage"
+
+echo bateria checada
