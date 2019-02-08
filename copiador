@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## creditos al creador original https://superuser.com/questions/678191/copy-new-files-from-a-monitored-folder-to-another-in-debian
+## creditos al creador original (https://superuser.com/questions/678191/copy-new-files-from-a-monitored-folder-to-another-in-debian)
 
 ## The target and source can contain spaces as 
 ## long as they are quoted. 
