@@ -9,3 +9,6 @@ __Estos scripts tienen las siguientes caracteristicas para utilizarlas inmediata
 
 * Son los archivos que tengo directamente en mi carpeta */* de esta manera pueden correr directamente desde la linea de comandos
 
+## ~
+
+* Es la carpeta Home de casi todas las distribuciones de linux
