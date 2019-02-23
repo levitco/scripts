@@ -1,0 +1,53 @@
+#latex notes
+
+##Titulos
+\chapter{}
+\section{}
+\subsection{}
+
+##texto
+\textbf{}
+\begin{center}
+\end{center}
+
+##viñetas-numeracion
+\begin{itemize}
+\item Leer el menu de la impresora. (100\%, sin éxito)
+\item Buscar los manuales en linea. (10\%, los manuales son bastante extensos)
+\item Buscar tutoriales en youtube. (20\%, falta buscar diferentes modelos)
+\item Solicitar a Ing felipe los drivers (100\%, a la espera de que me pase los links)
+\end{itemize}
+
+##figure
+\begin{figure}[hb]
+\centering
+\includegraphics[height=4cm, width=4cm]{konica.jpeg}
+\label{hotelkonika}
+\caption{konica minolta bizhub 20 (recepción)}
+*\textbf{Drivers} \ref{rkonica}
+
+###imagenes varias
+\begin{figure}[!htb]
+   \begin{minipage}{0.48\textwidth}
+     \centering
+     \includegraphics[width=.7\linewidth]{example-image-a}
+     \caption{Interpolation for Data 1}\label{Fig:Data1}
+   \end{minipage}\hfill
+   \begin{minipage}{0.48\textwidth}
+     \centering
+     \includegraphics[width=.7\linewidth]{example-image-b}
+     \caption{Interpolation for Data 2}\label{Fig:Data2}
+   \end{minipage}
+\end{figure}
+
+##tables
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+ &  &  &  &  \\ \hline
+ &  &  &  &  \\ \hline
+ &  &  &  &  \\ \hline
+ &  &  &  &  \\ \hline
+\end{tabular}
+\end{table}
+

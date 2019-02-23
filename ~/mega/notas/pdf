@@ -1,0 +1,5 @@
+# manipulacion de pdf
+
+## separar el pdf en hojas individuales
+
+pdftk <archivo> burst

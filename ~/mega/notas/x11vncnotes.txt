@@ -1,0 +1,7 @@
+#x11vnc server notes
+
+##no se cierre despues de la sesion
+X11vnc server -forever
+
+##autoinice al encender el equipo
+ver pdf x11vnc

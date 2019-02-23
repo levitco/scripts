@@ -1,0 +1,7 @@
+# atool
+
+## multiple files
+
+atool -a imagenes -F .zip *.png 
+
+

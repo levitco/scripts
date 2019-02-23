@@ -1,0 +1,102 @@
+ender 112
+----------------------------------------
+
+ffmpeg pegar archivos
+ffmpeg -f concat -safe 0 -i videos.txt -c copy video.mp4
+
+----------------------------------------
+latex to vim
+pdflatex <nombre del archivo>
+----------------------------------------
+pandoc
+pandoc <original> -o <nuevo>
+----------------------------------------
+printer terminal
+lp <nombredelarchivo> {impresora default}
+lpstat -a  {muestra nombre de las impresoras}
+lp -d <nombre de la impresora> <archivo>
+
+----------------------------------------
+inicar mysql
+sudo systemctl start mariadb
+mysql -u root -p
+----------------------------------------
+
+ranger --copy-config=all
+---------------------------------------
+    sudo pacman -Syy
+    sudo pacman -S 'package name'
+
+
+exo-open --launch TerminalEmulator
+
+-----tamaño beamer---
+\documentclass[aspectratio=169]{beamer}
+descargaseriesmega.com
+-------------------------------------------
+------------------------------------------
+4/AAC6Z_8TnRg49ciu2JGZR3UvIvdU0ckSsGYVPO0jZvVJl44zfE5OQhI
+--------------------------------------------
+-------------------clear ram------------
+sudo sync; echo 3 > /proc/sys/vm/drop_caches
+----------------------------------------------
+ps aux | grep gaim
+----------------------------------------------
+--------------vercuantaram------------
+---------------------------------------------
+dmesg | grep memory
+---------------------------------------------
+---------------actualizar-----------------
+-----------------------------------------------
+sudo pacman -Syyu
+------------------------------------------------
+---actualizar forzado "db.lck" lock--
+------------------------------------------------
+sudo pacman-mirrors -g
+--
+sudo pacman -S archlinux-keyring manjaro-keyring
+--
+sudo pacman -Syyu
+------------------------------------------------
+ 
+inicar mysql
+mysql -u root -p
+----------------------------------------
+
+ranger --copy-config=all
+---------------------------------------
+    sudo pacman -Syy
+    sudo pacman -S 'package name'
+
+
+exo-open --launch TerminalEmulator
+
+-----tamaño beamer---
+\documentclass[aspectratio=169]{beamer}
+descargaseriesmega.com
+-------------------------------------------
+------------------------------------------
+4/AAC6Z_8TnRg49ciu2JGZR3UvIvdU0ckSsGYVPO0jZvVJl44zfE5OQhI
+--------------------------------------------
+-------------------clear ram------------
+sudo sync; echo 3 > /proc/sys/vm/drop_caches
+----------------------------------------------
+ps aux | grep gaim
+----------------------------------------------
+--------------vercuantaram------------
+---------------------------------------------
+dmesg | grep memory
+---------------------------------------------
+---------------actualizar-----------------
+-----------------------------------------------
+sudo pacman -Syyu
+------------------------------------------------
+---actualizar forzado "db.lck" lock--
+------------------------------------------------
+sudo pacman-mirrors -g
+--
+sudo pacman -S archlinux-keyring manjaro-keyring
+--
+sudo pacman -Syyu
+------------------------------------------------
+ 

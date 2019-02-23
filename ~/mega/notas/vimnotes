@@ -1,0 +1,14 @@
+#VIM NOTES
+
+
+## Replace
+
+### vertical
+
+ctrl+v "seleccionamos lo que queremos reemplazar" c "escribimos lo que queremos poner Esc Esc
+
+
+# salvar archivo insalvable
+
+:w !sudo tee %
+

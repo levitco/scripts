@@ -1,0 +1,32 @@
+# samba notes
+
+## sharefolder
+
+cd /
+
+sudo mkdir realname
+
+sudo chown <username>:<username> realname
+
+ls -l
+
+sudo smbpasswd -a <username>
+
+sudo vim /etc/samba/smb.conf
+
+[sharedname]
+path = /realname
+available = yes
+valid users = techno
+read only = no
+browsable = yes
+public = yes
+writable = yes
+
+sudo systemctl restart smb
+
+ifconfig
+
+cd sharename
+
+ls -l

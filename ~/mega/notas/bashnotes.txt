@@ -1,0 +1,47 @@
+#bash notes
+
+# hacer ejecutables
+## volver superusuario
+* chmod 755
+* chmod a+x 
+
+## cambiar usuario
+
+chown <usuario> <archivo>
+
+
+## format usb
+__para buscar el flash__
+
+* lsblk
+* df -h 
+__desmontamos__
+sudo umount /dev/sdc1
+__escogemos el formato__
+
+* sudo mkfs.vfat /dev/sdc1
+* sudo mkfs.ntfs /dev/sdc1
+* sudo mkfs.ext4 /dev/sdc1
+
+## montar usb, desmontar y ejectar
+
+sudo mount *usb *carpeta donde quieres montarlo
+sudo umount *usb
+sudo eject *usb
+
+
+## make a file executable
+chmod +x /path/to/your/file.txt
+
+## .docs to pdf
+
+lowriter --convert-to pdf *.doc
+
+## .odt to pdf
+
+libreoffice --headless --convert-to pdf *.odt
+
+## convert all images in a pdf _imagemagick_
+
+convert *.jpg pictures.pdf
+

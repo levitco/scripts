@@ -1,0 +1,21 @@
+-i - ignore errors
+
+-c - continue
+
+-t - use video title as file name
+
+--extract-audio - extract audio track
+
+--audio-format mp3 - convert to mp3
+
+--audio-quality 0 - the best audio quality
+
+--yes-playlist - affirm that url points to a playl
+
+-F - selec format
+
+-f bestvideo - best video quality
+
+-f bestaudio - best audio quality
+
+-a - search in a file for the url

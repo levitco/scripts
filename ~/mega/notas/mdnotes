@@ -1,0 +1,92 @@
+#MDNOTES
+
+## image
+
+![Savonius](savonius.png){widht=8cm, height=5cm}
+
+
+##Rmd to pdf
+
+__BASH__
+
+Rscript -e "library(rmarkdown); render('apuntesdeclase.Rmd')"
+output:
+  pdf_document:
+    latex_engine: xelatex
+
+## TABLES
+
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+## footnotes
+
+header-includes:
+  - \usepackage{ragged2e}
+  - \renewcommand{\footnotesize}{\normalsize \justify}
+
+## \includepdf
+
+header-includes:
+  - \usepackage{booktabs} 
+  - \usepackage{sectsty} \sectionfont{\centering}
+  - \renewcommand{\contentsname}{}\vspace{-2cm} 
+  - \usepackage{pdfpages}
+
+\addcontentsline{toc}{section}{Instrumentacion Didactica}
+\includepdf[pages=-]{/home/levitico/MEGA/escuela/9_semestre/mantenimiento_mecanico_electrico/portafolio/id_iern_mme_9_eec.pdf}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

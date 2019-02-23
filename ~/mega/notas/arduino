@@ -1,0 +1,16 @@
+# Arduino
+
+## error de uploading
+
+### copiar la <dirrecion> del error para ver usuario y grupo
+
+ls -s /dev/ttyUSB0
+
+### darle privilegios de usuarios a este <grupo> <usuario>
+
+sudo usermod -a -G uucp levitico
+
+### darle privilegios de root al usuario en todo las capas a la <direccion>
+
+sudo chmod a+rw /dev/ttyUSB0
+

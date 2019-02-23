@@ -1,0 +1,14 @@
+# checar nmcli
+
+nmcli radio
+
+# ver dispositivos
+
+nmcli device
+
+# conectar a un lugar wireless
+
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi connect <ssid-name> password <wireless-passworf> hidden <if the network is hidenn put "yes">
+
