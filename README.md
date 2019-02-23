@@ -5,4 +5,7 @@ __Estos scripts tienen las siguientes caracteristicas para utilizarlas inmediata
 * Archlinux es sistema que estoy usando en particular __manjaro KDE__ 
 * Pueden ser utilizados en Debian con pequeños cambios __Ejemplos Pendiente__
 
+## base/bin
+
+* Son los archivos que tengo directamente en mi carpeta */* de esta manera pueden correr directamente desde la linea de comandos
 
