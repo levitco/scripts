@@ -1,9 +1,5 @@
 # Scripts para residencia 
 
-# Windows
-
-aqui van los scripts para funcionar en sistemas tipo windows tipicamente los usare solo para consultar la información de nuestros equipos aun asi recomiendo que se utilize con otros sistema de la familia linux o bsd o cualquier sistema libre :)
-
 ### licencia GNU v3 license
 
 todos estos archivos estan protegidos por la licencia GNU v3 license https://www.gnu.org/licenses/gpl-3.0.html
@@ -26,7 +22,7 @@ nos muestra la temperatura actual del sistema __no guarda registro__
 
 toma la temperatura actual del sistema y nos crea un registro en __~/home/registro_de_temperaturas__
 
-### Windows
+#### Windows
 
 aqui van los scripts para funcionar en sistemas tipo windows tipicamente los usare solo para consultar la información de nuestros equipos aun asi recomiendo que se utilize con otros sistema de la familia linux o bsd o cualquier sistema libre :)
 
