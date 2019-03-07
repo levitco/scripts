@@ -4,7 +4,9 @@
 
 aqui van los scripts para funcionar en sistemas tipo windows tipicamente los usare solo para consultar la información de nuestros equipos aun asi recomiendo que se utilize con otros sistema de la familia linux o bsd o cualquier sistema libre :)
 
-### todos estos archivos estan protegidos por la licencia GNU v3 license https://www.gnu.org/licenses/gpl-3.0.html
+### licencia GNU v3 license
+
+todos estos archivos estan protegidos por la licencia GNU v3 license https://www.gnu.org/licenses/gpl-3.0.html
 
 Aqui hablaremos de los diferentes scripts para mi proyecto de residencia al ser finalizada simplemente se movera todo a un apartado mejor definido 
 
