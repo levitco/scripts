@@ -1,4 +1,6 @@
 echo off
+echo "Borrar archivo para actualizarlo"
+del C:\registro_de_temperaturas.txt
 ssh levitico@192.168.
 echo "Conexion realizada con exito"
 echo "Registrando temperatura"
