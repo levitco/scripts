@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# agregar un canal	= A
+# bajaunvideo		= c
+# movervideos		= m 
+# descargador	 	= d
+# vermastarde 		= v
+# escogesunvideo	= s
+# escogesunvideoinfantil= i
+# help			= h
+
+while getopts hmdvsaiA:c:X: opt 
+do
+	case "${opt}"
+in
+	h) head /bin/videos;;
+	X) cd /home/levitico/Videos/x/  &&  echo $2 | /home/levitico/git/youtube-dl/youtube-dl/youtube-dl -if 137+bestaudio/best "$(cat -)";;
+	c) cd /home/levitico/Videos/yt/ver_mas_tarde/videos/temp/ &&  echo $2 | /home/levitico/git/youtube-dl/youtube-dl/youtube-dl -if 137+bestaudio/best "$(cat -)";;
+	A) echo $2 >> /home/levitico/Videos/yt/ver_mas_tarde/canales;;
+	m) movervideos;;
+	d) descargador &;;
+	v) vermastarde &;;
+	s) cd /home/levitico/Videos/yt/ver_mas_tarde/videos/temp/ && ls -t *.mp4 *.mkv* | dmenu -l 30 | mpv "$(cat -)" &;;
+	a)  cd /home/levitico/Videos/anime/ && ls -t *.mp4 *.mkv* | dmenu -l 30 | mpv "$(cat -)" &;;
+	i) cd /home/levitico/Videos/infantiles/ && ls -t *.mp4 *.mkv* | dmenu -l 30 | mpv "$(cat -)" &;;
+esac
+done
+

@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/levitico/Videos/yt/ver_mas_tarde/videos && /home/levitico/git/youtube-dl/youtube-dl/youtube-dl --force-ipv4 -if 137+bestaudio/22/best --playlist-items 1-2  --download-archive /home/levitico/Videos/yt/ver_mas_tarde/historial -a /home/levitico/Videos/yt/ver_mas_tarde/canales
+

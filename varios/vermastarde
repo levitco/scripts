@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /home/levitico/Videos/yt/ver_mas_tarde/videos/temp && ls -tI *.m3u  > lista.m3u && mpv --playlist=/home/levitico/Videos/yt/ver_mas_tarde/videos/temp/lista.m3u

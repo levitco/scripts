@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/levitico/Downloads/LinuxLNP-0.43.05-r07/
+
+./startlnp

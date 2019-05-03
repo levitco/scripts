@@ -1,0 +1,3 @@
+#!/bin/bash
+temp >> registro_de_temperaturas.txt
+

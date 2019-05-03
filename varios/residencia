@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# R) Registros mas recientes
+
+while true; do echo -n ;sed -i "s/Temperatura:.*/Temperatura: $(cat /sys/class/thermal/thermal_zone*/temp | awk "FNR==1{print $2}" | sed "s/...$/°C/") /" /home/levitico/Sites/residencia/registro.md; sleep 20s; done &  while true; do echo -n ;cat /sys/class/thermal/thermal_zone*/temp | awk "FNR==1{print $2}" | sed "s/...$/°C $(date +%R\ \%d-%m-%y)/" ; sleep 30s; done  >> /home/levitico/Sites/residencia/historial.md	
+ 
+
