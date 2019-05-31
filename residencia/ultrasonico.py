@@ -5,13 +5,13 @@ GPIO.setmode(GPIO.BCM)
 TRIG = 23 
 ECHO = 24
 
-print "Distance Measurement In Progress"
+print "Midiendo distancia"
 
 GPIO.setup(TRIG,GPIO.OUT)
 GPIO.setup(ECHO,GPIO.IN)
 
 GPIO.output(TRIG, False)
-print "Waiting For Sensor To Settle"
+print "Establizando"
 time.sleep(2)
 
 GPIO.output(TRIG, True)
@@ -25,10 +25,15 @@ while GPIO.input(ECHO)==1:
   pulse_end = time.time()
 
 pulse_duration = pulse_end - pulse_start
+# aqui tomamos la altura a la que nuestro sensor se localiza del agua para tomarla como 0
+# los valores los tomamos en centimetros.
 
-distance = pulse_duration * 17150
+
+distance = (pulse_duration * 17150) - 15
+
 
 distance = round(distance, 2)
+
 
 print "Distance:",distance,"cm"
 
