@@ -1,0 +1,14 @@
+int ph_analog = A0;
+int ph_analog_val;
+
+void setup()
+{
+pinMode(ph_analog, INPUT);
+}
+void loop()
+{
+ph_analog_val= analogRead(ph_analog);
+
+Serial.print("Analog Value - ");
+Serial.println(ph_analog_val);
+}
