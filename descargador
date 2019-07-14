@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/levitico/Videos/yt/ver_mas_tarde/videos && youtube-dl -if 137+bestaudio/22/best --playlist-items 1-2 --max-filesize 1g --download-archive /home/levitico/Videos/yt/ver_mas_tarde/historial -a /home/levitico/Videos/yt/ver_mas_tarde/canales
+

@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/levitico/mega/theme/wallpaper && ls | shuf -n 1 | wal -i "$(cat -)"
+

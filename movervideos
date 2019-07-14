@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /home/levitico/Videos/yt/ver_mas_tarde/videos/temp/ && rm * && sleep 1s && cd /home/levitico/Videos/yt/ver_mas_tarde/videos && mv *.mp4 *.mkv /home/levitico/Videos/yt/ver_mas_tarde/videos/temp
